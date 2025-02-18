@@ -15,8 +15,11 @@ function Navbar() {
     <section className='shadow-sm sticky top-0 backdrop-blur-md bg-white/30'>
       <div className='h-[60px] flex justify-between items-center container'>
 
-        <div className='flex gap-2'>
-          <img src="/img/logo2.png" alt="Logo" className='w-32' />
+        <div className='flex gap-2 items-center'>
+
+          <button className="btn bg-transparent border-0 hover:bg-transparent shadow-none">
+            <img src="/img/logo.png" alt="Logo" className='w-32' />
+          </button>
 
           <button className="btn btn-sm" onClick={() => document.getElementById('search__modal').showModal()}>
             <i className="bi bi-search"></i>
@@ -41,7 +44,7 @@ function Navbar() {
 
         </div>
 
-        <div className='flex gap-2'>
+        <div className='flex gap-2 items-center'>
 
           <label className="swap swap-rotate btn btn-sm">
             <input type="checkbox" className="theme-controller" checked={theme === "light"} onChange={toggleTheme} />
@@ -50,7 +53,7 @@ function Navbar() {
           </label>
 
           <div className="dropdown dropdown-bottom dropdown-end">
-            <div tabIndex={0} role="button" className="btn btn-sm">En <i class="bi bi-caret-down-fill"></i></div>
+            <div tabIndex={0} role="button" className="btn btn-sm">En <i className="bi bi-caret-down-fill"></i></div>
             <ul tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] p-2 shadow mt-1">
               <li><a>English</a></li>
               <li><a>Russian</a></li>
