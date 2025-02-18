@@ -23,7 +23,7 @@ function Navbar() {
 
           <button className="btn btn-sm" onClick={() => document.getElementById('search__modal').showModal()}>
             <i className="bi bi-search"></i>
-            <span>Search anything...</span>
+            <span className="hidden md:block">Search anything...</span>
           </button>
 
           <dialog id="search__modal" className="modal backdrop-blur-sm bg-white/30">
