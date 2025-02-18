@@ -24,9 +24,15 @@ function Navbar() {
           </button>
 
           <dialog id="search__modal" className="modal backdrop-blur-sm bg-white/30">
-            <div className="modal-box border border-red-700">
-              <h3 className="font-bold text-lg">Hello!</h3>
-              <p className="py-4">Press ESC key or click outside to close</p>
+            <div className="modal-box p-0 absolute top-24 rounded-md">
+              <>
+                <form action="">
+                  <label className="input flex items-center gap-2 border-0">
+                    <input type="text" className="grow" placeholder="Find anything..." />
+                    <i className="bi bi-search opacity-70"></i>
+                  </label>
+                </form>
+              </>
             </div>
             <form method="dialog" className="modal-backdrop">
               <button>close</button>
