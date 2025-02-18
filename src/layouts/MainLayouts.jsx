@@ -1,31 +1,14 @@
-import { useState, useEffect } from "react";
-
+import { Outlet } from "react-router-dom";
+import Navbar from "../components/Navbar/Navbar";
 function MainLayouts() {
-  const [theme, setTheme] = useState(localStorage.getItem("theme") || "light");
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
-  }, [theme]);
-
-  const toggleTheme = () => {
-    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
-  };
   return (
     <>
-    <label className="swap swap-rotate fixed left-0 top-40 border px-2 py-1">
-        {/* this hidden checkbox controls the state */}
-        <input type="checkbox" className="theme-controller" checked={theme === "light"} onChange={toggleTheme} />
-
-        {/* sun icon */}
-        <i className="swap-off text-3xl fill-current bi bi-brightness-high"></i>
-
-        {/* moon icon */}
-        <i className="swap-on text-3xl fill-current bi bi-moon"></i>
-      </label>
-
-
+      <Navbar />
+      <img src="annie-spratt-R33HNllqgHs-unsplash.jpg" alt="" />
       <div>MainLayouts</div>
+      <div className="h-screen"></div>
+      <div className="h-screen"></div>
+      <div className="h-screen"></div>
     </>
   )
 }
