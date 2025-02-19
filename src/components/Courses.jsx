@@ -48,6 +48,93 @@ function Courses() {
           </Swiper>
       </>
 
+      <div className="flex justify-center items-center gap-4 mt-[30px]">
+
+        <div className="border rounded-md">
+          <img src="/img/course__1.jpeg" alt="" className="rounded-t-md" />
+          <div className="p-4">
+            <p className="font-mono">bg Determined-Poitras</p>
+            <h2 className="text-xl font-bold mt-1">LMS Website With LearnPress</h2>
+            <div className="flex justify-start items-center gap-4 my-3">
+              <div className="flex gap-1">
+              <i className="bi bi-clock-fill"></i>
+                <span>2 Weeks</span>
+              </div>
+              <div className="flex gap-1">
+              <i className="bi bi-people-fill"></i>
+                <span>123 Students</span>
+              </div>
+            </div>
+            <hr />
+            <div className="mt-3 flex justify-between items-center">
+              <div className="flex gap-2 items-center">
+                <span className="line-through">$29.5</span>
+                <span className="text-green-500 font-semibold">Free</span>
+              </div>
+              <button className="btn btn-sm">View More</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="border rounded-md">
+          <img src="/img/course__3.jpeg" alt="" className="rounded-t-md"  />
+          <div className="p-4">
+            <p className="font-mono">bg Determined-Poitras</p>
+            <h2 className="text-xl font-bold mt-1">LMS Website With LearnPress</h2>
+            <div className="flex justify-start items-center gap-4 my-3">
+              <div className="flex gap-1">
+              <i className="bi bi-clock-fill"></i>
+                <span>2 Weeks</span>
+              </div>
+              <div className="flex gap-1">
+              <i className="bi bi-people-fill"></i>
+                <span>123 Students</span>
+              </div>
+            </div>
+            <hr />
+            <div className="mt-3 flex justify-between items-center">
+              <div className="flex gap-2 items-center">
+                <span className="line-through">$29.5</span>
+                <span className="text-green-500 font-semibold">Free</span>
+              </div>
+              <button className="btn btn-sm">View More</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="border rounded-md">
+          <img src="/img/course__2.jpeg" alt="" className="rounded-t-md"  />
+          <div className="p-4">
+            <p className="font-mono">bg Determined-Poitras</p>
+            <h2 className="text-xl font-bold mt-1">LMS Website With LearnPress</h2>
+            <div className="flex justify-start items-center gap-4 my-3">
+              <div className="flex gap-1">
+              <i className="bi bi-clock-fill"></i>
+                <span>2 Weeks</span>
+              </div>
+              <div className="flex gap-1">
+              <i className="bi bi-people-fill"></i>
+                <span>123 Students</span>
+              </div>
+            </div>
+            <hr />
+            <div className="mt-3 flex justify-between items-center">
+              <div className="flex gap-2 items-center">
+                <span className="line-through">$29.5</span>
+                <span className="text-green-500 font-semibold">Free</span>
+              </div>
+              <button className="btn btn-sm">View More</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    <div className="flex justify-center items-center">
+    <button className="btn mt-[25px] mx-auto">View All Courses</button>
+    </div>
+
+
       </section>
     </div>
   )
