@@ -4,7 +4,7 @@ function Category() {
   return (
     <div>
       <section className='container mt-[50px]'>
-        <h1 className='font-bold text-xl'>Category</h1>
+        <h1 className='font-bold text-xl text-center'>Category</h1>
 
         <div className='flex justify-center items-center gap-6 mt-[15px]'>
 

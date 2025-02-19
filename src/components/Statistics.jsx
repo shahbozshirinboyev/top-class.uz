@@ -4,7 +4,7 @@ function Statistics() {
   return (
     <div>
       <section className='container mt-[50px]'>
-      <h1 className='font-bold text-xl'>Statistics</h1>
+      <h1 className='font-bold text-xl text-center'>Statistics</h1>
         <div className='flex justify-center items-center gap-6 mt-[15px]'>
           <div className='p-10 border rounded-lg relative hover:-top-1 hover:shadow-md cursor-pointer transition-all duration-300 w-52'>
             <h2 className='text-center font-bold text-2xl'>8k+</h2>
