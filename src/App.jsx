@@ -18,11 +18,7 @@ function App() {
     ]
   );
 
-  return (
-    <div className="App">
-      <RouterProvider router={routes} />
-    </div>
-  );
+  return <RouterProvider router={routes} />;
 }
 
 export default App;
