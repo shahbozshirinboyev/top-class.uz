@@ -22,7 +22,7 @@ function Navbar() {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
   return (
-    <section className="shadow-sm sticky top-0 backdrop-blur-md bg-white/30">
+    <section className="shadow-sm sticky top-0 backdrop-blur-md bg-white/30 z-20">
       <div className="flex justify-between items-center container pt-1">
         <div className="flex gap-2 items-center">
           <button className="btn bg-transparent border-0 hover:bg-transparent shadow-none">
